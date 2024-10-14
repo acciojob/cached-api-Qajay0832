@@ -34,7 +34,7 @@ const App = () => {
         <ul>
           {memoizedData.map(post => (
             <li key={post.id}>
-              <h3>{post.title}</h3>
+              <h4>{post.title}</h4>
               <p>{post.body}</p>
             </li>
           ))}
